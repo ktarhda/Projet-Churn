@@ -15,7 +15,7 @@ contract_mapping = {
     "Un an": "One year",
     "Deux ans": "Two year"
 }
-# Les inputs de base
+# Les inputs utilisateur
 gender = st.selectbox("Genre", ["Male", "Female"])
 senior = st.selectbox("Client senior", [0, 1])
 tenure = st.slider("Ancienneté (mois)", 0, 72, 12)
